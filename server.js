@@ -55,6 +55,8 @@ wss.on("connection", (ws) => {
       return;
     }
 
+    
+
     // Mensaje normal de chat
     if (msg.tipo === "mensaje") {
       const texto = String(msg.texto || "").trim().slice(0, 500);
