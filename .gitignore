@@ -1,0 +1,30 @@
+
+# Dependencias
+node_modules/
+
+# Archivos de registro
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Variables de entorno
+.env
+.env.*
+!.env.example
+
+# Cobertura y compilación
+coverage/
+dist/
+build/
+
+# Cachés
+.npm/
+.yarn/
+.pnpm-store/
+
+# Sistema operativo y editores
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
